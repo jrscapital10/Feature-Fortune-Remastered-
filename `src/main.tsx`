@@ -1,9 +1,13 @@
-```tsx
-    import React from 'react'
-    import ReactDOM from 'react-dom/client'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import Header from './components/Header'
+import './index.css' // We will create this next
 
-    ReactDOM.createRoot(document.getElementById('root')!).render(
-      <React.StrictMode>
-        <h1>Feature Fortune Remastered - Under Construction</h1>
-      </React.StrictMode>,
-    )
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <Header />
+    <main className="p-8">
+      <h1>Welcome to the Remastered Feature Fortune</h1>
+    </main>
+  </React.StrictMode>,
+)
